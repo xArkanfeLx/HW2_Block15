@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:alpha="0.9"
+    tools:context=".fragments.MainFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Личный кабинет"
+            android:gravity="center"
+            android:textColor="@color/btn_color"
+            android:textSize="26sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Инфо 1"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:textColor="@color/btn_color"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Инфо 2"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/btn_color"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Кнопки"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:textColor="@color/btn_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Реклама"
+            android:gravity="center"
+            android:textColor="@color/btn_color"
+            android:textSize="12sp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
